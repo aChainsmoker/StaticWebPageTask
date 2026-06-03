@@ -1,0 +1,23 @@
+
+.footer{
+    box-sizing: border-box;
+    padding: 40px 0 80px 0;
+
+    color: #fff;
+    background-color: var(--color-dark);
+}
+
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer__left{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+

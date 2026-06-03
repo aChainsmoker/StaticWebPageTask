@@ -1,0 +1,30 @@
+.social-icons{
+    display: flex;
+
+    gap: 10px;
+}
+
+.social-icons__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 43px;
+    height: 43px;
+
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+
+
+.social-icons__icon{
+    display: block;
+
+    width: 19px;
+    height: auto;
+}
+
+
+.social-icons__icon--smaller-icon img{
+    width: 12px;
+}

@@ -1,0 +1,33 @@
+
+.subscribe{
+    position: relative;
+}
+
+.subscribe .container{
+    box-sizing: border-box;
+    padding: 42px 30px 50px;
+
+    border-radius: 8px;
+    background-color: var(--color-primary);
+}
+
+.subscribe__wrapper{
+    display: flex;
+    align-items: center;
+
+    gap: 4%;
+}
+
+
+.subscribe__left{
+    flex: 0 0 50%;
+
+    box-sizing: border-box;
+}
+
+
+.subscribe__right{
+    flex: 1;
+
+    box-sizing: border-box;
+}

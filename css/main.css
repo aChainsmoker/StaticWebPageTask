@@ -1,0 +1,49 @@
+:root {
+    --color-primary: #e84c3d; 
+    --color-dark: #202628;    
+    --color-gray-bg: #e7e7e7; 
+    --color-text: #333333;    
+    
+    --font-main: 'Lato', sans-serif;
+    --font-heading: 'Fjalla One', sans-serif;
+    --font-wight-main: 400;
+    --font-wight-bold: 700;
+    --font-wight-bolder: 800;
+
+    --header-height: 80px;
+}
+
+
+body{
+    font-family: var(--font-main);
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--color-text);
+    background-color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-heading);
+    font-weight: var(--font-wight-main);
+
+    margin: 0;
+}
+
+
+a{
+    transition: color .3s ease;
+    text-decoration: none;
+
+    color: inherit;
+}
+
+
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 0;
+}

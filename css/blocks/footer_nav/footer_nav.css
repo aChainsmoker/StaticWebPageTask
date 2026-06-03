@@ -1,0 +1,42 @@
+.footer-nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.footer-nav__link{
+    font-family: var(--font-main);
+    font-size: 13px;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: #fff;
+}
+
+
+
+.footer-nav__separator{
+    font-size: 12px;
+
+    color: #666;
+}
+
+
+.footer__credits{
+    font-family: var(--font-main);
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: #888;
+}
+
+.footer__designed-credit{
+    color: var(--color-primary);
+}
+
+.footer__credit-link{
+    text-decoration: none;
+}

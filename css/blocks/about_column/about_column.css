@@ -1,0 +1,45 @@
+.about-column{
+    display: block;
+}
+
+.about__column-title{
+    font-family: 'Lato bold', sans-serif;
+    font-size: 15px;
+    font-weight: var(--font-wight-bold);
+    line-height: 1;
+
+    margin-bottom: 10px;
+
+    color: var(--color-dark);
+}
+
+.about__column-text{
+    font-family: var(--font-main);
+    font-size: 14px;
+    line-height: 1.7;
+
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+    color: #666;
+}
+
+
+.about-column__btn{
+    font-family: var(--font-heading);
+    font-size: 16px;
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color-primary);
+}

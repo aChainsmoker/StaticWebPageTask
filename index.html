@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Static Web Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/blocks/header/header.css">
+  <link rel="stylesheet" href="css/blocks/hero/hero.css">
+  <link rel="stylesheet" href="css/blocks/features/features.css">
+  <link rel="stylesheet" href="css/blocks/about/about.css">
+  <link rel="stylesheet" href="css/blocks/subscribe/subscribe.css">
+  <link rel="stylesheet" href="css/blocks/info-grid/info-grid.css">
+  <link rel="stylesheet" href="css/blocks/footer/footer.css">
+  <link rel="stylesheet" href="css/blocks/logo/logo.css">
+  <link rel="stylesheet" href="css/blocks/nav/nav.css">
+  <link rel="stylesheet" href="css/blocks/hero_content/hero_content.css">
+  <link rel="stylesheet" href="css/blocks/feature/feature.css">
+  <link rel="stylesheet" href="css/blocks/about_column/about_column.css">
+  <link rel="stylesheet" href="css/blocks/testimonial/testimonial.css">
+  <link rel="stylesheet" href="css/blocks/subscribe_form/subscribe_form.css">
+  <link rel="stylesheet" href="css/blocks/news_card/news_card.css">
+  <link rel="stylesheet" href="css/blocks/contact_form/contact_form.css">
+  <link rel="stylesheet" href="css/blocks/contact_info/contact_info.css">
+  <link rel="stylesheet" href="css/blocks/footer_nav/footer_nav.css">
+  <link rel="stylesheet" href="css/blocks/social_icon/social_icon.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo" href="#">Site Name</a>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--active">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="img/hero_bg.png" alt="Hero background">
+    </div>
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__icons">
+          <div class="hero__icon">
+            <img src="img/angle_bracket_left.png" alt="Previous">
+          </div>
+          <div class="hero__icon">
+            <img src="img/angle_bracket_right.png" alt="Next">
+          </div>
+        </div>
+        <h1 class="hero__title">
+          CLIVUAM TINC
+          <span class="hero__title-line"></span>
+        </h1>
+        <h2 class="hero__subtitle">NUNC DIGNISSIM RISUS ID METUS</h2>
+        <a href="http://wallpaperswide.com/" class="hero__link">http://wallpaperswide.com/</a>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container">
+      <div class="features__wrapper">
+        <article class="feature">
+          <div class="feature__icon">
+            <img src="img/icon-rocket.png" alt="Rocket">
+          </div>
+          <div class="feature__content">
+            <h3 class="feature__title">ALIQUAM TINCIDUNT</h3>
+            <p class="feature__text">
+              Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim
+              pellentesq
+              <span><a href="#" class="feature__link">=> more</a></span>
+            </p>
+          </div>
+        </article>
+        <article class="feature">
+          <div class="feature__icon">
+            <img src="img/icon-shield.png" alt="Shield">
+          </div>
+          <div class="feature__content">
+            <h3 class="feature__title">CRAS ORNARE TRISTIQU</h3>
+            <p class="feature__text">
+              Jonec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim
+              pellentesq
+              <span><a href="#" class="feature__link">=> more</a></span>
+            </p>
+          </div>
+        </article>
+        <article class="feature">
+          <div class="feature__icon">
+            <img src="img/icon-fire_killer.png" alt="Fire">
+          </div>
+          <div class="feature__content">
+            <h3 class="feature__title">VIVAMUS VESTIBULUM</h3>
+            <p class="feature__text">
+              Conec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim
+              pellentesq
+              <span><a href="#" class="feature__link">=> more</a></span>
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <div class="about__wrapper">
+        <div class="about__left">
+          <div class="about__title-block">
+            <h2 class="about__title-text">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor sit amet
+              orci. Aenean dignissim pellentesque felis</h2>
+          </div>
+          <h3 class="about__subtitle">Civamus vestibulum nulla nec ante</h3>
+          <div class="about__columns">
+            <div class="about-column">
+              <h4 class="about__column-title">Sed egestas anteet</h4>
+              <p class="about__column-text">Lorem pede semper est, vitae luctus metus libero eu augue. Morbi purus
+                libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit
+                tortor. Ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.</p>
+              <button type="button" class="about-column__btn">MORE</button>
+            </div>
+            <div class="about-column">
+              <h4 class="about__column-title">Aenean egestas anteet</h4>
+              <p class="about__column-text">Lorem pede semper est, vitae luctus metus libero eu augue. Morbi purus
+                libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit
+                tortor. Ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.</p>
+              <button type="button" class="about-column__btn">MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="about__right">
+          <div class="about__image-wrapper">
+            <img src="img/bird_pic.png" alt="Bird on hand" class="about__image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="container">
+      <div class="subscribe__wrapper">
+        <div class="testimonial subscribe__left">
+          <div class="testimonial__icon">
+            <img src="img/icon-user.png" alt="Person">
+          </div>
+          <div class="testimonial__content">
+            <h3 class="testimonial__title">DONEC NEC JUSTO EGET</h3>
+            <blockquote class="testimonial__quote">
+              "Ede semper est, vitae luctus metus libero eu augue. Morb sipo ipiscing, commodo quis, gravida ..."
+              <cite class="testimonial__author">- Kohn Doe / company name</cite>
+            </blockquote>
+          </div>
+        </div>
+        <div class="subscribe-form subscribe__right">
+          <h3 class="subscribe-form__title">MORBI VITAE LUCTUS</h3>
+          <form class="subscribe-form__inner" action="#" method="post">
+            <input type="email" class="subscribe-form__input" placeholder="enter your email id here ..." required>
+            <button type="submit" class="subscribe-form__btn">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="info-grid">
+    <div class="container">
+      <div class="info-grid__wrapper">
+        <div class="info-grid__column">
+          <h3 class="info-grid__title">ALIQUAM TINCIDUNT</h3>
+          <div class="info-grid__divider"></div>
+          <article class="news-card">
+            <div class="news-card__avatar">
+              <img src="img/avatar_1.png" alt="Avatar">
+            </div>
+            <div class="news-card__content">
+              <p class="news-card__text">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor</p>
+              <a href="#" class="news-card__link">more =></a>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-card__avatar">
+              <img src="img/avatar_2.png" alt="Avatar">
+            </div>
+            <div class="news-card__content">
+              <p class="news-card__text">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor</p>
+              <a href="#" class="news-card__link">more =></a>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-card__avatar">
+              <img src="img/avatar_3.png" alt="Avatar">
+            </div>
+            <div class="news-card__content">
+              <p class="news-card__text">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor</p>
+              <a href="#" class="news-card__link">more =></a>
+            </div>
+          </article>
+        </div>
+        <div class="info-grid__column">
+          <h3 class="info-grid__title">NUNC DIGNISSIM RISU</h3>
+          <div class="contact-form-block">
+            <p class="contact-form-block__text">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+              luctus metus liber</p>
+            <form class="contact-form-block__form" action="#" method="post">
+              <input type="text" class="contact-form-block__input" placeholder="name ..." required>
+              <input type="email" class="contact-form-block__input" placeholder="email ..." required>
+              <textarea class="contact-form-block__textarea" placeholder="your query ..." required></textarea>
+              <button type="submit" class="contact-form-block__btn">SEND</button>
+            </form>
+          </div>
+        </div>
+        <div class="info-grid__column">
+          <h3 class="info-grid__title">ALIQUAM TINCIDUNT</h3>
+          <div class="info-grid__divider"></div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">
+              <img src="img/icon-home.png" alt="Home">
+            </div>
+            <div class="contact-info-item__content">
+              <h4 class="contact-info-item__label">Address</h4>
+              <p class="contact-info-item__text">some block, steet number, city name, country</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">
+              <img src="img/icon-phone.png" alt="Phone">
+            </div>
+            <div class="contact-info-item__content">
+              <h4 class="contact-info-item__label">Phone</h4>
+              <p class="contact-info-item__text">(000) 777 777 7777<br>(000) 888 888 8888</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">
+              <img src="img/icon-mail.png" alt="Email">
+            </div>
+            <div class="contact-info-item__content">
+              <h4 class="contact-info-item__label">Email us</h4>
+              <p class="contact-info-item__text">info@sitename.com<br>sales@sitename.com<br>company@sitename.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__left">
+          <nav class="footer-nav">
+            <a href="#" class="footer-nav__link">Home</a>
+            <span class="footer-nav__separator">/</span>
+            <a href="#" class="footer-nav__link">About</a>
+            <span class="footer-nav__separator">/</span>
+            <a href="#" class="footer-nav__link">Services</a>
+            <span class="footer-nav__separator">/</span>
+            <a href="#" class="footer-nav__link">Portfolio</a>
+            <span class="footer-nav__separator">/</span>
+            <a href="#" class="footer-nav__link">Contact</a>
+          </nav>
+          <div class="footer__credits">
+            <span class="footer__designed-credit">Designed by: <a href="http://www.alltemplateneeds.com/"
+                class="footer__credit-link">www.alltemplateneeds.com/</a></span>
+            Images from: www.wallpaperswide.com / Copyright(c) website name.
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="social-icons">
+            <a href="#" class="social-icons__item social-icons__icon--smaller-icon">
+              <img src="img/icon-facebook.png" alt="Facebook" class="social-icons__icon">
+            </a>
+            <a href="#" class="social-icons__item">
+              <img src="img/icon-twitter.png" alt="Twitter" class="social-icons__icon">
+            </a>
+            <a href="#" class="social-icons__item">
+              <img src="img/icon-linked_in.png" alt="LinkedIn" class="social-icons__icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

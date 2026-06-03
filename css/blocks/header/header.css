@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+
+    height: var(--header-height);
+
+    background-color: var(--color-dark);
+}
+
+
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.header__nav{
+    height: 100%;
+}
