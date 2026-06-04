@@ -9,12 +9,12 @@
 
 
 
-.header__container{
+.header__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    /* justify-content: space-between; */
     height: 100%;
+    gap: 55.4%;
 }
 
 .header__nav{
