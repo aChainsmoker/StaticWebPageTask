@@ -14,7 +14,7 @@
 
 .hero__bg{
     position: absolute;
-    top: 0;
+    top: calc(var(--header-height, 80px) * -1);
     left: 0;
 
     width: 100%;
