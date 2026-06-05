@@ -13,7 +13,7 @@
     display: flex;
     align-items: start;
 
-    gap: 50px;
+    gap: 4%;
 }
 
 .about__left{
@@ -65,7 +65,7 @@
 .about__columns{
     display: flex;
 
-    gap: 40px;
+    gap: 4%;
 }
 
 

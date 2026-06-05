@@ -32,8 +32,6 @@
     width: 100%;
     padding: 12px 18px;
 
-    transition: box-shadow .3s ease;
-
     color: var(--color-dark);
     border: none;
     border-radius: 50px;
@@ -52,10 +50,6 @@
 
 .contact-form-block__input::placeholder, .contact-form-block__textarea::placeholder{
     color: #999;
-}
-
-.contact-form-block__input:focus, .contact-form-block__textarea:focus{
-    box-shadow: 0 0 0 2px rgba(232, 76, 61, .2);
 }
 
 .contact-form-block__btn{
