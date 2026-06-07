@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
 
-    gap: 40px;
+    gap: 34px;
 }
 
 .info-grid__column{
@@ -27,7 +27,7 @@
 
     margin-bottom: 28px;
 
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
 
     color: var(--color-dark);

@@ -8,7 +8,7 @@
     overflow: hidden;
     align-items: center;
 
-    min-height: 59vh;
+    height: 560px;
 }
 
 
@@ -22,6 +22,8 @@
 
     background-color: #666155;
     height: 100vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 .hero__bg img{
@@ -41,5 +43,5 @@
 
     width: 100%;
     height: 100%;
-    padding-top: 235px;
+    padding-top: 233px;
 }
