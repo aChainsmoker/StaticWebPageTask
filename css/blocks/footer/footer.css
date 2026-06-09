@@ -1,5 +1,4 @@
-
-.footer{
+.footer {
     box-sizing: border-box;
     padding: 36px 0 80px 0;
 
@@ -7,17 +6,15 @@
     background-color: var(--color-dark);
 }
 
-.footer__wrapper{
+.footer__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-
-.footer__left{
+.footer__left {
     display: flex;
     flex-direction: column;
 
     gap: 10px;
 }
-

@@ -1,4 +1,4 @@
-.contact-form-block{
+.contact-form-block {
     padding: 24px 30px 30px 30px;
 
     text-align: left;
@@ -7,7 +7,7 @@
     background-color: var(--color-light-gray);
 }
 
-.contact-form-block__text{
+.contact-form-block__text {
     font-family: var(--font-main);
     font-size: 14px;
     line-height: 1.7;
@@ -17,14 +17,14 @@
     color: var(--color-darker-gray);
 }
 
-.contact-form-block__form{
+.contact-form-block__form {
     display: flex;
     flex-direction: column;
 
     gap: 20px;
 }
 
-.contact-form-block__input, .contact-form-block__textarea{
+.contact-form-block__input, .contact-form-block__textarea {
     font-family: var(--font-main);
     font-size: 13px;
 
@@ -39,7 +39,7 @@
     background-color: var(--color-white);
 }
 
-.contact-form-block__textarea{
+.contact-form-block__textarea {
     height: 80px;
 
     resize: none;
@@ -48,11 +48,11 @@
     border-radius: 12px;
 }
 
-.contact-form-block__input::placeholder, .contact-form-block__textarea::placeholder{
+.contact-form-block__input::placeholder, .contact-form-block__textarea::placeholder {
     color: var(--color-gray);
 }
 
-.contact-form-block__button{
+.contact-form-block__button {
     font-family: var(--font-heading);
     font-size: 14px;
 
@@ -74,7 +74,7 @@
     background-color: var(--color-primary-orange);
 }
 
-.contact-form-block__button::after{
+.contact-form-block__button::after {
     font-size: 14px;
 
     position: absolute;

@@ -1,8 +1,8 @@
-.subscribe-form{
+.subscribe-form {
     width: 100%;
 }
 
-.subscribe-form__title{
+.subscribe-form__title {
     font-family: var(--font-heading);
     font-size: 20px;
 
@@ -14,7 +14,7 @@
     color: var(--color-white);
 }
 
-.subscribe-form__inner{
+.subscribe-form__inner {
     display: flex;
 
     width: 100%;
@@ -22,7 +22,7 @@
     gap: 10px;
 }
 
-.subscribe-form__input{
+.subscribe-form__input {
     font-family: var(--font-main);
     font-size: 13px;
     font-style: italic;
@@ -38,11 +38,11 @@
     background-color: var(--color-white);
 }
 
-.subscribe-form__input::placeholder{
+.subscribe-form__input::placeholder {
     color: var(--color-gray);
 }
 
-.subscribe-form__button{
+.subscribe-form__button {
     font-family: var(--font-heading);
     font-size: 14px;
 
@@ -65,7 +65,7 @@
     background-color: var(--color-dark);
 }
 
-.subscribe-form__button::after{
+.subscribe-form__button::after {
     font-size: 14px;
 
     position: absolute;

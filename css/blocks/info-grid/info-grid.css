@@ -1,26 +1,24 @@
-
-.info-grid{
+.info-grid {
     box-sizing: border-box;
     padding: 66px 0;
 
     background-color: var(--color-white);
 }
 
-.info-grid__wrapper{
+.info-grid__wrapper {
     display: flex;
     justify-content: space-between;
 
     gap: 34px;
 }
 
-.info-grid__column{
+.info-grid__column {
     display: flex;
     flex: 1;
     flex-direction: column;
 }
 
-
-.info-grid__title{
+.info-grid__title {
     font-family: var(--font-heading);
     font-size: 20px;
     line-height: 1;
@@ -33,7 +31,7 @@
     color: var(--color-dark);
 }
 
-.info-grid__divider{
+.info-grid__divider {
     width: 100%;
     height: 1px;
     margin-bottom: 30px;

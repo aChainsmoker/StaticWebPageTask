@@ -1,5 +1,4 @@
-
-.hero__icons{
+.hero__icons {
     display: flex;
 
     margin-bottom: 30px;
@@ -7,15 +6,14 @@
     gap: 1px;
 }
 
-.hero__icon img{
+.hero__icon img {
     display: block;
 
     width: auto;
     height: 70px;
 }
 
-
-.hero__title{
+.hero__title {
     font-family: var(--font-heading);
     font-size: 26px;
     line-height: 1;
@@ -33,8 +31,7 @@
     gap: 15px;
 }
 
-
-.hero__title-line{
+.hero__title-line {
     display: inline-block;
 
     width: 252px;
@@ -44,7 +41,7 @@
     background-color: var(--color-white);
 }
 
-.hero__subtitle{
+.hero__subtitle {
     font-family: var(--font-heading);
     font-size: 26px;
     line-height: 1;
@@ -57,7 +54,7 @@
     color: var(--color-white);
 }
 
-.hero__link{
+.hero__link {
     font-family: var(--font-main);
     font-size: 16px;
     line-height: 1;

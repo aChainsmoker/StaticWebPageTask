@@ -1,9 +1,8 @@
-
-.subscribe{
+.subscribe {
     position: relative;
 }
 
-.subscribe .container{
+.subscribe .container {
     box-sizing: border-box;
     padding: 42px 30px 50px;
 
@@ -11,22 +10,20 @@
     background-color: var(--color-primary-orange);
 }
 
-.subscribe__wrapper{
+.subscribe__wrapper {
     display: flex;
     align-items: center;
 
     gap: 4%;
 }
 
-
-.subscribe__left{
+.subscribe__left {
     flex: 0 0 50%;
 
     box-sizing: border-box;
 }
 
-
-.subscribe__right{
+.subscribe__right {
     flex: 1;
 
     box-sizing: border-box;

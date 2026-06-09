@@ -1,5 +1,4 @@
-
-.features{
+.features {
     position: relative;
 
     box-sizing: border-box;
@@ -8,11 +7,9 @@
     background-color: var(--color-light-gray);
 }
 
-
-.features__wrapper{
+.features__wrapper {
     display: flex;
     justify-content: center;
 
     gap: 3%;
 }
-

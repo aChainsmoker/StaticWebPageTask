@@ -1,8 +1,8 @@
-.about-column{
+.about-column {
     display: block;
 }
 
-.about__column-title{
+.about__column-title {
     font-family: 'Lato bold', sans-serif;
     font-size: 15px;
     font-weight: var(--font-weight-bold);
@@ -13,7 +13,7 @@
     color: var(--color-dark);
 }
 
-.about__column-text{
+.about__column-text {
     font-family: var(--font-main);
     font-size: 14px;
     line-height: 1.7;
@@ -24,8 +24,7 @@
     color: var(--color-dark-gray);
 }
 
-
-.about-column__button{
+.about-column__button {
     font-family: var(--font-heading);
     font-size: 16px;
 

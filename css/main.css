@@ -1,6 +1,6 @@
 :root {
     --color-primary-orange: #e84c3d;
-    --color-dark: #202628;    
+    --color-dark: #202628;
     --color-light-gray: #e7e7e7;
     --color-light-gray-for-borders: #e0e0e0;
     --color-text: #333333;
@@ -10,20 +10,15 @@
     --color-darker-gray: #555555;
     --color-gray: #999999;
     --color-lightly-dark-gray: #888888;
-    
-    --font-main: 'Lato', sans-serif;
-    --font-heading: 'Fjalla One', sans-serif;
 
-    --font-wight-lightly-bold: 600;
+    --font-main: 'Lato', sans-serif;
+    --font-heading: 'Fjalla One', sans-serif;    --font-wight-lightly-bold: 600;
     --font-weight-main: 400;
     --font-weight-bold: 700;
-    --font-weight-bolder: 800;
-
-    --header-height: 80px;
+    --font-weight-bolder: 800;    --header-height: 80px;
 }
 
-
-body{
+body {
     font-family: var(--font-main);
     font-size: 16px;
     line-height: 1.5;
@@ -32,24 +27,21 @@ body{
     background-color: var(--color-white);
 }
 
-
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     font-weight: var(--font-weight-main);
 
     margin: 0;
 }
 
-
-a{
+a {
     transition: color .3s ease;
     text-decoration: none;
 
     color: inherit;
 }
 
-
-.container{
+.container {
     box-sizing: border-box;
     width: 100%;
     max-width: 1170px;
