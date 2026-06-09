@@ -4,7 +4,7 @@
     text-align: left;
 
     border-radius: 8px;
-    background-color: var(--color-gray-bg);
+    background-color: var(--color-light-gray);
 }
 
 .contact-form-block__text{
@@ -14,7 +14,7 @@
 
     margin: 0 0 24px 0;
 
-    color: #555;
+    color: var(--color-darker-gray);
 }
 
 .contact-form-block__form{
@@ -36,7 +36,7 @@
     border: none;
     border-radius: 50px;
     outline: none;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .contact-form-block__textarea{
@@ -49,10 +49,10 @@
 }
 
 .contact-form-block__input::placeholder, .contact-form-block__textarea::placeholder{
-    color: #999;
+    color: var(--color-gray);
 }
 
-.contact-form-block__btn{
+.contact-form-block__button{
     font-family: var(--font-heading);
     font-size: 14px;
 
@@ -68,13 +68,13 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    color: #fff;
+    color: var(--color-white);
     border: none;
     border-radius: 50px;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-orange);
 }
 
-.contact-form-block__btn::after{
+.contact-form-block__button::after{
     font-size: 14px;
 
     position: absolute;

@@ -18,8 +18,9 @@
     background-color: var(--color-dark);
 }
 
-.testimonial__icon img{
+.testimonial__icon .testimonial__icon-font{
     display: block;
+    color: var(--color-white);
 
     width: 27px;
     height: auto;
@@ -39,7 +40,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    color: #fff;
+    color: var(--color-white);
 }
 
 .testimonial__quote{
@@ -49,7 +50,7 @@
 
     margin: 0;
 
-    color: #fff;
+    color: var(--color-white);
 }
 
 .testimonial__author{

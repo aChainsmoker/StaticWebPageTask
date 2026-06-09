@@ -4,7 +4,7 @@
     margin-bottom: 25px;
     padding-bottom: 30px;
 
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid var(--color-light-gray-for-borders);
 
     gap: 6%;
 }
@@ -20,7 +20,7 @@
     height: 22px;
 }
 
-.contact-info-item__icon img{
+.contact-info-item__icon .contact-info-item__icon-font{
     display: block;
 
     width: 100%;
@@ -34,12 +34,12 @@
 .contact-info-item__label{
     font-family: var(--font-main);
     font-size: 18px;
-    font-weight: var(--font-wight-bolder);
+    font-weight: var(--font-weight-bolder);
     line-height: 1;
 
     margin: 0 0 3px 0;
 
-    color: var(--color-primary);
+    color: var(--color-primary-orange);
 }
 
 .contact-info-item__text{
@@ -50,5 +50,5 @@
     width: 75%;
     margin: 0;
 
-    color: #555;
+    color: var(--color-darker-gray);
 }

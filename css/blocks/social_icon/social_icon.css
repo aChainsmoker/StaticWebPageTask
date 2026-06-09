@@ -13,7 +13,7 @@
     height: 43px;
 
     border-radius: 50%;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-orange);
     flex-shrink: 0;
 }
 
@@ -26,6 +26,6 @@
 }
 
 
-.social-icons__icon--smaller-icon img{
+.social-icons__icon--smaller-icon .social-icons__icon{
     width: 12px;
 }

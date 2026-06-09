@@ -9,7 +9,7 @@
 
     list-style: none;
 
-    color: #ededed;
+    color: var(--color-light-gray);
 }
 
 .nav__item{
@@ -24,7 +24,7 @@
 .nav__link{
     font-family: var(--font-heading);
     font-size: 13px;
-    font-weight: var(--font-wight-main);
+    font-weight: var(--font-weight-main);
 
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    color: #ededed;
+    color: var(--color-light-gray);
 }
 
 
@@ -47,5 +47,5 @@
 
 
 .nav__item--active{
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-orange);
 }

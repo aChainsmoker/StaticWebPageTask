@@ -18,10 +18,8 @@
     left: 0;
 
     width: 100%;
-    height: calc(100% + var(--header-height, 80px));
 
-    background-color: #666155;
-    height: 100vh;
+    background-color: var(--color-hero-bg);
     object-fit: cover;
     object-position: center;
 }

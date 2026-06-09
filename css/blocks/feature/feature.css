@@ -18,11 +18,12 @@
     height: 70px;
 
     border-radius: 50%;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-orange);
 }
 
-.feature__icon img{
+.feature__icon .feature__icon-font{
     display: block;
+    color: var(--color-white);
 
     width: 28px;
     height: auto;
@@ -55,7 +56,7 @@
 
     hyphens: auto;
 
-    color: #555;
+    color: var(--color-darker-gray);
 
     overflow-wrap: break-word;
 }
@@ -63,11 +64,11 @@
 .feature__link{
     font-family: var(--font-main);
     font-size: 13px;
-    font-weight: var(--font-wight-bold);
+    font-weight: var(--font-weight-bold);
 
     display: inline;
 
     text-decoration: none;
 
-    color: var(--color-primary);
+    color: var(--color-primary-orange);
 }

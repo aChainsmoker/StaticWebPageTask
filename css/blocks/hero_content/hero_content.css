@@ -28,7 +28,7 @@
     letter-spacing: 5px;
     text-transform: uppercase;
 
-    color: #fff;
+    color: var(--color-white);
 
     gap: 15px;
 }
@@ -41,7 +41,7 @@
     height: 2px;
 
     opacity: .7;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .hero__subtitle{
@@ -54,7 +54,7 @@
     letter-spacing: 5px;
     text-transform: uppercase;
 
-    color: #fff;
+    color: var(--color-white);
 }
 
 .hero__link{
@@ -66,5 +66,5 @@
 
     text-decoration: none;
 
-    color: var(--color-primary);
+    color: var(--color-primary-orange);
 }

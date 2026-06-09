@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 66px 0;
 
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .info-grid__wrapper{
@@ -38,5 +38,5 @@
     height: 1px;
     margin-bottom: 30px;
 
-    background-color: #e0e0e0;
+    background-color: var(--color-light-gray-for-borders);
 }

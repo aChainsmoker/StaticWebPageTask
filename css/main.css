@@ -1,14 +1,23 @@
 :root {
-    --color-primary: #e84c3d; 
+    --color-primary-orange: #e84c3d;
     --color-dark: #202628;    
-    --color-gray-bg: #e7e7e7; 
-    --color-text: #333333;    
+    --color-light-gray: #e7e7e7;
+    --color-light-gray-for-borders: #e0e0e0;
+    --color-text: #333333;
+    --color-white: #ffffff;
+    --color-hero-bg: #666155;
+    --color-dark-gray: #666666;
+    --color-darker-gray: #555555;
+    --color-gray: #999999;
+    --color-lightly-dark-gray: #888888;
     
     --font-main: 'Lato', sans-serif;
     --font-heading: 'Fjalla One', sans-serif;
-    --font-wight-main: 400;
-    --font-wight-bold: 700;
-    --font-wight-bolder: 800;
+
+    --font-wight-lightly-bold: 600;
+    --font-weight-main: 400;
+    --font-weight-bold: 700;
+    --font-weight-bolder: 800;
 
     --header-height: 80px;
 }
@@ -20,13 +29,13 @@ body{
     line-height: 1.5;
 
     color: var(--color-text);
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-heading);
-    font-weight: var(--font-wight-main);
+    font-weight: var(--font-weight-main);
 
     margin: 0;
 }
@@ -45,5 +54,5 @@ a{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 0;
+    padding: 0;
 }

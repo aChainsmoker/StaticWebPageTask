@@ -5,7 +5,7 @@
 .about__column-title{
     font-family: 'Lato bold', sans-serif;
     font-size: 15px;
-    font-weight: var(--font-wight-bold);
+    font-weight: var(--font-weight-bold);
     line-height: 1;
 
     margin-bottom: 10px;
@@ -21,11 +21,11 @@
     margin-top: 5px;
     margin-bottom: 30px;
 
-    color: #666;
+    color: var(--color-dark-gray);
 }
 
 
-.about-column__btn{
+.about-column__button{
     font-family: var(--font-heading);
     font-size: 16px;
 
@@ -38,8 +38,8 @@
     letter-spacing: -.5px;
     text-transform: uppercase;
 
-    color: #fff;
+    color: var(--color-white);
     border: none;
     border-radius: 50px;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-orange);
 }
