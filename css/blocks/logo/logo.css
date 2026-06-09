@@ -1,0 +1,15 @@
+.logo {
+    font-family: var(--font-heading);
+    font-size: 25px;
+    font-weight: var(--font-weight-main);
+
+    display: inline-block;
+
+    transform: scaleX(.95);
+    white-space: nowrap;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: var(--color-light-gray);
+}

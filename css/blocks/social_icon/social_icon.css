@@ -1,0 +1,29 @@
+.social-icons {
+    display: flex;
+
+    gap: 10px;
+}
+
+.social-icons__item {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+
+    width: 43px;
+    height: 43px;
+
+    border-radius: 50%;
+    background-color: var(--color-primary-orange);
+}
+
+.social-icons__icon {
+    display: block;
+
+    width: 19px;
+    height: auto;
+}
+
+.social-icons__icon--smaller-icon .social-icons__icon {
+    width: 12px;
+}

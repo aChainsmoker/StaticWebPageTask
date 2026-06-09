@@ -1,0 +1,15 @@
+.features {
+    position: relative;
+
+    box-sizing: border-box;
+    padding: 80px 0 80px 0;
+
+    background-color: var(--color-light-gray);
+}
+
+.features__wrapper {
+    display: flex;
+    justify-content: center;
+
+    gap: 3%;
+}

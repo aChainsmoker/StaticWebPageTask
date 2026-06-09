@@ -1,0 +1,39 @@
+.footer-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 17px;
+}
+
+.footer-nav__link {
+    font-family: var(--font-main);
+    font-size: 13px;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: var(--color-white);
+}
+
+.footer-nav__separator {
+    font-size: 12px;
+
+    color: var(--color-dark-gray);
+}
+
+.footer__credits {
+    font-family: var(--font-main);
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--color-lightly-dark-gray);
+}
+
+.footer__designed-credit {
+    color: var(--color-primary-orange);
+}
+
+.footer__credit-link {
+    text-decoration: none;
+}
